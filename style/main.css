@@ -1,0 +1,208 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*elementos base*/
+
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: whitesmoke;
+}
+
+header .navbar {
+    background-color: var(--preta);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-top: 6px;
+    margin-left: 50%;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 150%
+}
+
+header .collapse {
+    margin-left: 4%;
+}
+
+header .nav-item {
+    text-decoration: none;
+    color: #aaa;
+}
+
+header .nav-item a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 20px;
+}
+
+header .nav-item a:hover {
+    color: #aaa;
+}
+
+header .d-flex {
+    object-position: right;
+    margin-left: 15%;
+}
+
+header .form-control {
+    margin-left: 10%;
+    background-color: var(--preta);
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.buscar:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.buscar i{
+    margin-right: 8px;
+}
+
+header .buscar {
+    background-color: var(--preta);
+    border: none;
+    color: whitesmoke;
+    padding: 15px 20px;
+    margin-right: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.buscar:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.buscar i {
+    margin-right: 1px;
+}
+
+.fa-regular {
+    margin-top: 20px;
+    object-position: right;
+    color: whitesmoke;
+}
+
+.margin {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+/*inicio*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/ProjetoDIO/img/code.jpg');
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 7%;
+}
+
+.filme-principal .titulo {
+    color: whitesmoke;
+    margin-left: 7%;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: whitesmoke;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-left: 7%;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.foto {
+    margin-left: 25%;
+}
+
+
+/* competencias */
+
+.box-linguagem {
+    height: 100%;
+    width: 100%;
+}
+
+#competencias {
+    background: var(--preta);
+}
+
+.comp {
+    margin-left: 3%;
+    color: whitesmoke;
+}
+
+.carrosel-competencias {
+    margin: 0px 3%;
+}
+
+/* experiencia */
+.ui-tabs .ui-tabs-nav {
+    background: var(--preta);
+    border: none;
+}
+
+#tabs {
+    background: var(--preta);
+    border: none;
+    color: var(--preta);
+}
+
+.tab {
+    border: none;
+    color: var(--preta);
+    border-color: var(--preta);
+}
