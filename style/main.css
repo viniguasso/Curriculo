@@ -50,7 +50,8 @@ header .nav-item a {
 }
 
 header .nav-item a:hover {
-    color: #aaa;
+    color: white;
+    transition: .3s ease all;
 }
 
 header .d-flex {
@@ -66,7 +67,7 @@ header .form-control {
 }
 
 .buscar:hover {
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
 }
 
@@ -137,12 +138,10 @@ header .buscar {
     background-color: rgba(0,0,0,.50);
     border: none;
     color: whitesmoke;
-
     padding: 15px 30px;
     margin-right: 15px;
     margin-left: 7%;
     font-size: 12px;
-
     cursor: pointer;
     transition: .3s ease all;
 }
@@ -186,23 +185,23 @@ header .buscar {
 }
 
 .carrosel-competencias {
-    margin: 0px 3%;
+    margin: 0px;
+}
+
+.item {
+    height: 70%;
+    width: 70%;
 }
 
 /* experiencia */
-.ui-tabs .ui-tabs-nav {
-    background: var(--preta);
+#experiencias {
     border: none;
+    background-color: var(--preta);
 }
 
-#tabs {
-    background: var(--preta);
-    border: none;
-    color: var(--preta);
+.exp {
+    margin-left: 3%;
+    color: whitesmoke;
+    background: var(--preta); 
 }
 
-.tab {
-    border: none;
-    color: var(--preta);
-    border-color: var(--preta);
-}
