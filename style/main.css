@@ -39,7 +39,7 @@ body {
 .navbar {
     background-color: var(--preta);
     display: flex;
-    flex-direction: row;
+    flex-direction: colum;
     align-items: center;
     justify-content: space-between;
 }
